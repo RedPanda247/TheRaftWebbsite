@@ -1,0 +1,5 @@
+/* show debug borders if element has class "show borders" */
+.show-borders {
+    border: solid red 1px;
+    /* box-sizing: border-box; */
+  }
