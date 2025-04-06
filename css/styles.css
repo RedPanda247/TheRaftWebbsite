@@ -35,11 +35,14 @@ button {
 /* Website */
 
 body {
+    background-image: url('../images/vecteezy_serene-mountain-lake-at-night_54358444.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
 
     background-color: #333333;
+    background-size: cover;
+    background-attachment: fixed;
 }
 /* header */
 header {
@@ -54,6 +57,9 @@ header {
 }
 h1 {
     margin: 2% 1%;
+}
+h3 {
+    /* margin-top: 1em; */
 }
 br {
     display: block;
@@ -111,6 +117,8 @@ br {
     display: flex;
     width: 100%;
     margin-top: 50px;
+
+    min-height: 1500px;
 }
 
 .main-website--section {
@@ -157,6 +165,9 @@ br {
     animation-fill-mode: forwards;
     pointer-events: all;
 }
+.info-document img {
+    width: 100%;
+}
 
 @keyframes rightToMiddle {
     0% {
@@ -183,7 +194,7 @@ br {
 }
 .about-the-book--title {
     width: 100%;
-    background-color: #222222;
+    background-color: #111111;
     color: white;
     padding: 5%;
 }
@@ -196,7 +207,23 @@ br {
     margin-bottom: 5%;
     h3 {
         width: 50%;
+        
     }
 }
 
 /* =========================================================== */
+
+/* footer */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    
+    min-height: 300px;
+    h2 {
+        color: white;
+    }
+    h3 {
+        color: white;
+    }
+}
